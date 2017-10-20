@@ -1,0 +1,616 @@
+@charset "utf-8";
+
+/****************************
+Base Element Styles
+*****************************/
+@font-face {
+    font-family: 'josefin_slabregular';
+    src: url('fonts/josefinslab-regular-webfont.eot');
+    src: url('fonts/josefinslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/josefinslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/josefinslab-regular-webfont.woff') format('woff'),
+         url('fonts/josefinslab-regular-webfont.ttf') format('truetype'),
+         url('fonts/josefinslab-regular-webfont.svg#josefin_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+* {
+   box-sizing: border-box;
+  
+	
+	}
+
+
+
+body {
+	   
+	   font: normal 1em/1.6 'Lato', sans-serif;
+	   background: #fff;
+	   color: #006;
+}
+
+	   
+
+
+
+
+img {
+ max-width : 100%;
+
+}
+
+
+
+p {
+	
+	margin-bottom: 1.8em;
+	
+}
+
+
+img,
+p {
+   padding: 0 1em;	
+	
+}
+
+
+
+
+h1,
+h2,
+h3 {
+   margin: 0;
+}
+
+
+
+a {
+	
+   text-decoration: none;
+   	display: block;
+}
+
+
+
+h1,
+.profile-name,
+.main-nav,
+.contact-info,
+.footer-profile-name,
+.footer-nav,
+.to-top {
+  
+  font-family: "josefin_slabregular", sans-serif;
+  	
+}
+
+
+
+h2 {
+   font-family: 'Poiret One', sans-serif;
+	
+}
+
+
+h1,
+h2,
+p,
+.main-nav a,
+.profile-name,
+.contact-info,
+.footer-profile-name,
+.footer-nav a {
+      text-align: center;	
+}
+     
+
+
+
+
+/*******************************************************************
+Base Layout Styles
+********************************************************************/
+
+
+/*** NAVIGATION ****/
+
+.main-header {
+	background:#026;
+	background:linear-gradient(#069, #fff);
+	padding:1.5em 0 2em 0;
+	margin-bottom: 1em;
+	
+}
+
+
+.profile-name {
+	line-height: 1.3;
+	padding-top: 0.2em;
+	text-shadow: 0 2px 6px #026;
+	
+     
+}
+
+
+
+
+
+.main-nav,
+.footer-nav {
+	margin-top: 5px;
+	
+}
+
+
+
+
+
+
+.main-nav a,
+.footer-nav a {
+	display: block;
+	padding: 10px 15px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0 1px 3px #026;
+	
+	
+	
+}
+
+
+.main-header,
+.main-nav a,
+.main-nav a:visited,
+.footer-nav a,
+.footer-nav a:visited {
+	color: #fff;
+}
+
+ .main-nav a:hover,
+ .footer-nav a:hover,
+ .to-top:hover {
+	 transform: scale(1.1);
+	 transition: all.5s;
+	 cursor: pointer;
+}
+
+
+
+/***** Layout Containers *****/
+.flex-header,
+.container,
+.flex-container,
+.flex-footer {
+	padding: 1em 0;
+	
+}
+
+
+
+
+
+
+
+
+#contact .container {
+	box-shadow: inset 0 0 60px 20px rgba(135,135,135, .2);
+	
+}
+
+
+.contact-info {
+	width: 90%;
+	font-size: 1.3em;
+	margin: 1em auto 1.5em;
+	
+	
+}
+
+
+.contact-info li {
+	margin: 20px 0;
+	
+}
+
+
+.fat-footer {
+	background:linear-gradient(to top, #069, #fff);
+	padding: 1.4em 0 1em;
+	margin-top: 2em;
+	
+}
+
+.footer-nav {
+	display: none;
+	
+}
+
+
+.fat-footer,
+.to-top {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************
+    Page Elements
+*******************************/
+
+
+.profile-image,
+.col img {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+
+.col img {
+	
+    margin-bottom: 1.25em;
+		
+	
+}
+
+
+
+.aboutMe-col,
+.col p,
+#contact p {
+	font-size: 1.1em;
+	text-align: center;
+	
+}
+
+
+.treehouse {
+   color: #46C46B;
+  text-shadow: 1px 1px 2px #999;	
+}
+
+
+
+
+ .footer-profile-name,
+ .to-top {
+	font-size: 0.8em;
+	display: inline-block;
+	
+}
+
+
+
+
+
+
+.footer-profile-name,
+.to-top {
+	text-shadow: 0 1px 3px #026;
+}
+
+
+.footer-profile-name  {
+	text-align: left;
+	padding:1em 0 1em 0.3em;
+	margin-right: -4px;
+	width: 60%;
+	font-size: 1.2em;
+	
+}
+
+
+
+
+
+
+.to-top {
+	text-align: right;
+	padding: 1em 0.7em 1em 0; 
+	width: 40%;
+	
+}
+
+
+/*******************************************************************
+MEDIA QUERIES
+********************************************************************/
+
+
+
+
+@media (min-width: 768px) {
+ 
+ 
+ /***Reset Elements***/
+ 
+ 
+.footer-profile-name {
+	
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 0;
+}
+
+
+
+
+.footer-nav {
+	display: block;
+	padding-right: 15px;
+}
+
+
+.footer-nav a {
+	font-size:0.8em;
+}
+
+/***LAYOUT CONTAINERS***/
+
+/**Flexbox**/	
+
+
+
+.flex-header,
+.main-nav,
+.flex-container,
+.flex-footer,
+.footer-nav {
+	display: flex;
+}
+
+.flex-header {
+	
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.flex-container {
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1 50%;
+	
+}
+
+
+
+.flex-footer {
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+/**FLOATS**/
+
+.profile-image{
+	float: right;
+	width: 40%;
+	margin: 0 4% 0 1%; 
+	
+}
+
+
+.aboutMe-col {
+	float: left;
+	width: 52%;
+	padding: 1em 0 0 0.5em;
+	text-align: left;
+	font-size: 1.4em;
+	margin: 0 1% 0 2%;
+	
+	
+}
+
+
+.container .col {
+	width: 50%;
+	float: left;
+	
+}
+
+
+.container .thirdSkill-col {
+	float: none;
+	display: block;
+	margin: 10px auto 0;
+}
+
+
+/** Float Clearfix **/
+
+.group {
+content: "";
+display: table;
+clear: both;	
+}
+
+
+
+
+/**PAGE ELEMENTS**/
+
+.profile-name {
+	
+	font-size: 2.2em;
+	line-height: 1.4;
+	margin-bottom: 0.7em;
+	
+}
+
+
+
+p {
+  font-size: 1.2em;	
+}
+
+
+
+.col img {
+  width: 100%;	
+
+}
+
+
+
+
+
+
+
+/**FOOTER**/
+
+.to-top {
+	display: none;
+	
+}
+
+
+.footer-profile-name  {
+	font-size: 1.6em;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+
+/***LAYOUT CONTAINERS***/
+
+
+.flex-header,
+.flex-container,
+.flex-footer,	
+.container {
+	width: 80%;
+	max-width: 1400px;
+	margin: 0 auto;
+	
+}	
+
+
+
+/**Flexbox**/	
+
+.flex-header {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.col {
+	flex-basis: 33.3333%;
+
+}
+
+
+/***FLOATS***/
+
+.container .col,
+.container .thirdSkill-col {
+	width:33.3333%;
+}
+
+
+
+.container .thirdSkill-col {
+	float: left;
+	display:block;
+	margin:0;
+}
+
+
+
+
+
+
+/**PAGE ELEMENTS**/
+
+.main-nav a {
+	font-size:1em;
+}
+
+
+
+
+
+.profile-name  {
+	
+	font-size: 2.1em;
+	padding: 10px 0 0 0.5em;
+	margin-left: 2%;
+	margin-bottom: 0;
+	
+}
+
+
+
+
+.aboutMe-col {
+	font-size: 1.6em;
+	line-height: 1.4;
+
+}
+
+
+
+.contact-info {
+	font-size: 1.5em;
+	
+}
+
+
+	
+
+}
