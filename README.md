@@ -21,6 +21,18 @@ Creating a responsive webpage with in-page links using the mobile-first approach
 ## Overview
   
 ### About this project
-This project is the creation of a web page with 3 layouts for 3 different devices.
+Users should be able to :
+* View this web page on 3 different devices:
+  * Moble (320px viewport)
+  * Tablet (768px vieport)
+  * Desktop (1024px viewport)
+- Be able to use the navigation to jump to the linked sections of the webpage.
+- **Exceeds:** Add an additional section such as Skills.
+- **Exceeds:** Add an additional Google font.
+- **Exceeds:** Add a new background colour for the navigation or main section of the site.
+- **Exceeds:** Change the colour of at least one piece of text.
+- **Exceeds:** Add an additional image for the profile image.
+- **Exceeds:** Add additional styling for links.
 ### Screenshot of my project 2 Mobile, Tablet & Deskop layouts
 ![](img/layouts.jpg)
+
