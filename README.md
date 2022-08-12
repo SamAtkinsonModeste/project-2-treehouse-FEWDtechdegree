@@ -21,6 +21,6 @@ Creating a responsive webpage with in-page links using the mobile-first approach
 ## Overview
   
 ### About this project
-
+This project is the creation of a web page with 3 layouts for 3 different devices.
 ### Screenshot of my project 2 Mobile, Tablet & Deskop layouts
 ![](img/layouts.jpg)
