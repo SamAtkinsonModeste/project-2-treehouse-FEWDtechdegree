@@ -38,7 +38,7 @@ Users should be able to :
 
 
 ### Live Link
-- Live Site URL: [Project 2 Mobile-first Responsive Layout](https://https://samatkinsonmodeste.github.io/project-2-treehouse-FEWDtechdegree/)
+- Live Site URL: [Project 2 Mobile-first Responsive Layout](https://samatkinsonmodeste.github.io/project-2-treehouse-FEWDtechdegree/)
 
 ## My Process
 First, I read through all the requirements for this project.
