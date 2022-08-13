@@ -53,7 +53,7 @@ I also referred to my notes taken through some CSS courses.
 
 ### What I learned
 Initially, the **Float** property was recommened to be used for the layout within the media queries. Due to becoming frustrated using the CSS **Float** property, I quickly ran through the **Flexbox** course and learnt **Flexbox** for the first time.
-I also learnt how to convert a font to different formats and use the ```@font-face``` to import a font family that is possibly not on a user's computer. In so doing a learnt the difference between:
+I also learnt how to convert a font to different formats and use the ```@font-face``` to import a font family that is possibly not on a user's computer. In so doing I learnt the difference between:
 * TrueType Fonts (TTF)
   * TrueType is a font standard developed in the late 1980s, by Apple and Microsoft. TrueType is the most common font format for both the Mac OS and Microsoft Windows operating systems.
 
